@@ -18,6 +18,6 @@ app.get('/api/products/:id', (req, res) => {
     }
 });
 
-app.listen(5001, () => {
-    console.log(`Server started at http://localhost:5001`);
+app.listen(5002, () => {
+    console.log(`Server started at http://localhost:5002`);
 });
